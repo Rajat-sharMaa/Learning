@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>moon</title>
+    <style>
+        body {
+            background-color: #022547;
+            height: auto;
+            width: auto;
+        }
+
+        img {}
+
+        #circle {
+            width: 500px;
+            height: 500px;
+            background-color: #072f51;
+            border-radius: 50%;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            animation: rise 5s infinite;
+        }
+
+        #inner-circle-1 {
+            width: 400px;
+            height: 400px;
+            background-color: #143f61;
+            border-radius: 50%;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            animation: rise-1 5s infinite;
+        }
+
+        #inner-circle-2 {
+            width: 300px;
+            height: 300px;
+            background-color: #2f5b7c;
+            border-radius: 50%;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            animation: rise-2 5s infinite;
+        }
+
+        #inner-circle-3 {
+            width: 200px;
+            height: 200px;
+            background-color: #f0f5fb;
+            border-radius: 50%;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            animation: rise-3 5s infinite;
+        }
+
+        @keyframes rise {
+            0% {
+                height: 0px;
+                width: 0px;
+            }
+
+            80% {
+                height: 500px;
+                width: 500px;
+            }
+            
+            100% {
+                height: 500px;
+                width: 500px;
+            }
+        }
+
+        @keyframes rise-1 {
+            0% {
+                height: 0px;
+                width: 0px;
+            }
+
+            100% {
+                height: 400px;
+                width: 400px;
+            }
+        }
+
+        @keyframes rise-2 {
+            0% {
+                height: 0px;
+                width: 0px;
+            }
+
+            100% {
+                height: 300px;
+                width: 300px;
+            }
+        }
+
+        @keyframes rise-3 {
+            0% {
+                height: 0px;
+                width: 0px;
+            }
+
+            100% {
+                height: 200px;
+                width: 200px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="circle">
+        <div id="inner-circle-1">
+            <div id="inner-circle-2">
+                <div id="inner-circle-3">
+                    <img src="stag.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
