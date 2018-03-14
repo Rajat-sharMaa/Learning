@@ -1,0 +1,18 @@
+{
+  "extensions": {
+    "mikaeljorhult.brackets-autoprefixer": true,
+    "brackets-beautify": true,
+    "sprintr.color-palette": true,
+    "mikailcolak.brackets-color-picker": true,
+    "zaggino.brackets-git": true,
+    "brackets-light-theme": true,
+    "mskocik.brackets.icons": true,
+    "camden.csslint": true,
+    "milosh86.extensions-bulk-installer": false,
+    "fixthecode": true,
+    "himasrafeek.hard-coder": true,
+    "theme-light-coffee-color": true,
+    "monokai-corail": true,
+    "monokai-corail-ur": true
+  }
+}
